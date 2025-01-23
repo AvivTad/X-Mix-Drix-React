@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-gap: 10px;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.cell {
+  background-color: #f4f4f4;
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.winner-message {
+  margin-top: 20px;
+}
